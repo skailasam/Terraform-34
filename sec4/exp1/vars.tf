@@ -10,11 +10,11 @@ variable "AMIS" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "/Users/jmohandas/Documents/Terraform/sec4/exp1/mykey"
+  default = "mykey"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "/Users/jmohandas/Documents/Terraform/sec4/exp1/mykey.pub"
+  default = "mykey.pub"
 }
 
 variable "INSTANCE_USERNAME" {
